@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export default function Skills (props) {
     const ContainerDiv = styled.div`
         height:300px;
-        width:100%;
+        
         background-color: #E8D3C5;
         padding: 2em;
     `;
@@ -38,6 +38,17 @@ export default function Skills (props) {
         }
     `;
 
+    const Submit = styled.input`
+        border: none;
+        width: 100px;
+        padding: 1.5em;
+        border-radius: 1em;
+        color: white;
+        font-weight:700;
+        background-color: #CB997E;
+        outline: none;
+    `;
+
     const Label = styled.label`
         
     `;
@@ -49,6 +60,7 @@ export default function Skills (props) {
                 <Input type="text" name="name" defaultValue="Name"></Input>
                 <Input type="text" name="email" defaultValue="Email"></Input>
                 <Input type="textarea" name="info" defaultValue="Let's talk about..."></Input>
+                <Submit type="submit" value="SUBMIT"></Submit>
             </Form>
         </ContainerDiv>
     )
