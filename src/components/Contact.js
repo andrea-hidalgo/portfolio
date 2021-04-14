@@ -8,13 +8,12 @@ export default function Skills (props) {
         padding: 2em;
     `;
 
-    const Paragraph = styled.p`
-        color:#F9F4F0;
-        font-size: 1.5em;
+    const Paragraph = styled.h1`
+        color:#CB997E;
         font-family: 'Roboto', sans-serif;
         padding: 0;
         margin-top: 0;
-        margin-bottom:0.1em;
+        margin-bottom:1em;
         text-align:center;
     `;
 

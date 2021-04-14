@@ -17,7 +17,7 @@ export default function Skills (props) {
     const FlexDiv = styled.div`
         display:flex;
         flex-flow: row wrap;
-        justify-content: space-evenly;
+        justify-content: space-around;
         align-content: center;
         align-items: center;
         width:100%;
@@ -106,7 +106,7 @@ export default function Skills (props) {
             <FlexDiv>
                 <IconContainer><FaLinkedinIn/></IconContainer>
                 <IconContainer><AiOutlineGithub/></IconContainer>
-                <Button>Resume</Button>
+                {/* <Button>Resume</Button> */}
             </FlexDiv>
         </Container>
     )

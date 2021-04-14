@@ -71,7 +71,7 @@ export default function Main () {
         margin: 2em 1em 0 1em;
         padding: 20px;
         font-size: 1em;
-        background-color: #A5A58D;
+        background-color: #CB997E;
         border: none;
         outline: none;
         color: #F9F4F0;
