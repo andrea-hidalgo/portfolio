@@ -3,9 +3,8 @@ import styled from 'styled-components'
 export default function Skills (props) {
     const ContainerDiv = styled.div`
         height:300px;
-        
         background-color: #E8D3C5;
-        padding: 2em;
+        padding: 5em 2em;
     `;
 
     const Paragraph = styled.h1`

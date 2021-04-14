@@ -11,7 +11,7 @@ export default function Skills (props) {
         background-color: #E8D3C5;
         color: #F9F4F0;
         text-align: center;
-        padding: 2em 0;
+        padding: 3em 0;
     `;
 
     const FlexDiv = styled.div`

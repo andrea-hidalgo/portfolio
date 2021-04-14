@@ -5,8 +5,9 @@ export default function Skills (props) {
     const Container = styled.div`
         height:auto;
         width:100%;
-        background-color: #E8D3C5;
+        background-color: #F9F4F0;
         color:#F9F4F0;
+        padding:5em 0;
         @media (min-width: 480px) {
             display:flex;
             flex-flow: row wrap;
